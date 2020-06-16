@@ -1,0 +1,78 @@
+<DOCTYPE html>
+    <head>
+        <title>LM PHOTOGRAPHY</title>
+        <meta charset="utf-8" />
+        <!--   <link href="Contato.css" rel="stylesheet" media="all" />
+        <script src="Contato.css"></script>-->
+        <link rel="stylesheet" href="Contato.css">	
+        <body style="background-image: url(https://images7.alphacoders.com/349/thumb-1920-349391.jpg);">
+    
+    </head>
+    <body>
+        <div id="corpo">	
+            <header class="principal">	
+                <div class="logo">
+                <div class="logo1">
+                    <a href="Home.html"><img src="https://images.squarespace-cdn.com/content/v1/564ec359e4b001fdb8d4fe59/1530558408618-9S0TR2BTU7H3BOBWHFUF/ke17ZwdGBToddI8pDm48kGl7ljbzljEHAl5zJM8zXogUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnLquU9UCKEpuJRtTYBgmRZpYsx5zgFzDcnm_CuGOdtIb2aVkaoNrbcM6b8H_7MY_9Q/BLKlogo.png" width="300" title="Logo" ></a>	
+                </div> 
+                <div class="menu">
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>			
+                        <li><a href="Casamento.html">Casamento</a></li>
+                        <li><a href="15anos.html">15Anos</a></li>
+                        <li><a href="Destaques.html">Destaques</a></li>
+                        <li><a href="Depoimentos.html">Depoimentos</a></li>
+                        <li><a href="Contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                </div>
+            </header>
+            <br>
+            <form name="meu_form">
+     
+                <h1>Entre em contato</h1>
+         
+                <p class="nome">
+                    <input type="text" id="nomeid" placeholder="Victor Maia" required="required" name="nome" />
+                    <label for="nome">Nome</label>
+                </p>
+                <p class="fone">
+                    <input type="text" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+                    <label for="fone">Telefone</label>
+         
+                </p>
+                <p>
+                    <input type="email" id="emailid" placeholder="victormaia@mail.com" name="email" />
+                    <label for="email">Email</label>
+                </p>
+                <p>
+                    <textarea placeholder="Deixe sua opnião"></textarea>
+                </p>
+                <p class="submit">
+                    <input type="submit" onclick="Enviar();" value="Enviar" />
+                </p>
+            </form> 
+            <script>
+    
+            function Enviar() {
+     
+                var nome = document.getElementById("nomeid");
+             
+                if (nome.value != "") {
+                    alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+                }
+             
+            }
+        </script>
+    
+        <footer id="roda-pe">
+            <div class="contat"><br>
+              <br> <p style="color: white">lmphotography483@gmail.com 
+                <img src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-1.png" width="25px"></p>
+    
+            <div class="inst">
+                <p style="color: white">@lm.photography20
+                <img src="https://possetem.com.br/wp-content/uploads/2019/08/K1gOgV-logo-instagram-cut-out-png.png"width="30px"> </p>
+          
+    </body>
+    </html>
